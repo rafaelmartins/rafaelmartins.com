@@ -57,7 +57,7 @@ saber do que eu estou falando. :)
 Este domínio permanecerá registrado e servindo emails para mim e para algumas
 pessoas as quais eu ofereci algumas contas, e continuará servindo de dominio
 base para os hostnames dos meus servidores, mas nao pretendo hospedar mais nada
-além desta explicação. O dominio ``rafaelmartins.com``, de hoje em diante
+além desta explicação. O dominio *rafaelmartins.com*, de hoje em diante
 representa apenas uma lembrança de um tempo muito bom, que não volta mais.
 
 -- `Rafael G. Martins <http://rafaelmartins.eng.br/>`_
