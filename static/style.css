@@ -17,6 +17,7 @@ body {
 
 h2 {
 	margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -61,5 +62,11 @@ div.footer {
 }
 
 hr {
-	margin-top: 50px;
+	margin-top: 40px;
+}
+
+blockquote {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
 }

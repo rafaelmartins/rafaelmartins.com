@@ -6,12 +6,11 @@ Aposentando este dominio
 
 Seguindo a tendência nerd de publicar textos longos e empolgados sobre coisas
 sem muita importância para pessoas "normais", como o `desligamento de um
-servidor`_, decidi explicar aqui a razão pela qual eu (Rafael_) não estarei
-mais utilizando este dominio para hospedar nenhuma aplicação ou website, e
+servidor`_, decidi explicar aqui a razão pela qual eu não estarei mais
+utilizando este dominio para hospedar nenhuma aplicação ou website, e
 aproveitar para contar um pouco de história. :P
 
 .. _`desligamento de um servidor`: http://ry4an.org/unblog/post/eulogy-for-a-good-server/
-.. _Rafael: http://rafaelmartins.eng.br/
 
 Este dominio foi registrado em 30 de maio de 2006, por algum provedor barato
 de hospedagem compartilhada de sites, não me lembro qual. Nesta época eu nem
@@ -29,3 +28,39 @@ o PHP_. Fiquei fascinado com as possibilidades que aquela nova tecnologia
 poderia me proporcionar.
 
 .. _PHP: http://php.net/
+
+A partir daí este dominio passou a hospedar os mais diversos tipos de
+websites, geralmente "desenvolvidos" por mim do zero, e com as mais diversas
+finalidades. Na verdade quase todo o código era baseado em scripts encontrados
+na internet, os quais eu geralmente não fazia ideia de como funcionavam, apenas
+copiava e colava. :(
+
+Eu gostaria de entrar em detalhes sobre os websites que eu criei na época, e
+até mesmo colocar alguns deles para funcionar denovo, através de alguns poucos
+backups que eu possuo da época, mas infelizmente é praticamente impossivel
+rodar scripts de mais de 6 anos atrás em sistemas atuais sem perder alguns dias
+atualizando código e corrigindo as inúmeras falhas de segurança, que hoje eu
+sei que existem mas que não fazia a mínima idéia na época. Além disso alguns
+destes websites poderiam vir a incomodar algumas pessoas, por isso prefiro
+deixar tudo como está.
+
+Devido a toda a importância que esse dominio teve para mim, e toda a história
+dele, a qual eu só contei uma parte aqui, eu decidi por simplesmente parar de
+utilizá-lo, e já não o utilizo a alguns anos, de fato.
+
+Durante esses anos eu aprendi muita coisa, e adquiri bastante conhecimento
+técnico. Certamente não produzo mais código tão inseguro, ineficiente e mal
+organizado, mas certamente também não consigo mais produzir coisas tão simples
+e com tanto valor pessoal e sentimental. Quem conviveu comigo nesta epoca deve
+saber do que eu estou falando. :)
+
+Este domínio permanecerá registrado e servindo emails para mim e para algumas
+pessoas as quais eu ofereci algumas contas, e continuará servindo de dominio
+base para os hostnames dos meus servidores, mas nao pretendo hospedar mais nada
+além desta explicação. O dominio ``rafaelmartins.com``, de hoje em diante
+representa apenas uma lembrança de um tempo muito bom, que não volta mais.
+
+-- `Rafael G. Martins <http://rafaelmartins.eng.br/>`_
+
+    Escrito ao som de **Vivendo do Ócio - Nostalgia**.
+
