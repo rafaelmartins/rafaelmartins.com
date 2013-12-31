@@ -9,21 +9,22 @@ RST2HTML = rst2html.py
 GITHUB_PAGES_PUBLISH = github-pages-publish
 
 .PHONY: all
-all: index.html
+all: build/index.html
 
-%.html: %.rst static/html4css1.css static/style.css
-	$(RST2HTML) --generator --date --time --cloak-email-addresses --source-link \
+build/%.html: %.rst static/html4css1.css static/style.css
+	mkdir -p build
+	$(RST2HTML) --cloak-email-addresses \
 		--embed-stylesheet --initial-header-level=2 \
 		--stylesheet-path=static/html4css1.css,static/style.css \
 		--language=pt_br $< $@
 
 .PHONY: clean
 clean:
-	$(RM) -v *.html
+	$(RM) -rv build
 
 .PHONY: publish
 publish: all
 	$(GITHUB_PAGES_PUBLISH) --verbose \
 		--cname rafaelmartins.com \
 		--message 'Updated webpage' \
-		. .
+		. build
