@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt_br" lang="pt_br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.10: http://docutils.sourceforge.net/" />
+<title>rafaelmartins.com</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<style type="text/css">
+
+/**
+ * :Author: Rafael G. Martins
+ * :Contact: rafael@rafaelmartins.eng.br
+ * :Copyright: This stylesheet has been placed in the public domain.
+ *
+ * Stylesheet for use with Docutils to build a single page static website.
+ *
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 17px;
+	color: #000;
+}
+
+h2 {
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h3 {
+	margin-top: 15px;
+}
+
+a {
+	color: #036;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table.docinfo, table.docinfo td, table.docinfo tr {
+	border: 0;
+}
+
+table.docinfo {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+table.docinfo th.docinfo-name {
+	text-align: right;
+}
+
+table.docinfo td.field-body {
+	text-align: left;
+}
+
+div.document {
+	width: 700px;
+	margin: 0 auto;
+    text-align: justify;
+}
+
+div.footer {
+	text-align: center;
+}
+
+hr {
+	margin-top: 40px;
+}
+
+blockquote {
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="rafaelmartins-com">
+<h1 class="title">rafaelmartins.com</h1>
+<h2 class="subtitle" id="aposentando-este-dominio">Aposentando este domínio</h2>
+
+<p>Seguindo a tendência nerd de publicar textos longos e empolgados sobre coisas
+sem muita importância para pessoas &quot;normais&quot;, como o <a class="reference external" href="http://ry4an.org/unblog/post/eulogy-for-a-good-server/">desligamento de um
+servidor</a>, decidi explicar aqui a razão pela qual eu não estarei mais
+utilizando este domínio para hospedar nenhuma aplicação ou website, e
+aproveitar para contar um pouco de história. :P</p>
+<p>Este domínio foi registrado em 30 de maio de 2006, por algum provedor barato
+de hospedagem compartilhada de sites, não me lembro qual. Nesta época eu nem
+sequer possuia um computador em casa, e não entendia praticamente nada sobre
+como &quot;funcionava a internet&quot;. Também não sabia nada de programação nem de
+desenvolvimento de sites, &quot;sabia&quot; apenas utilizar softwares como o Microsoft
+Front Page e o NVU, para produzir sites toscos em HTML puro e hospedar nos
+extintos Geocities e Vila BOL.</p>
+<p>O registro deste domínio foi o meu primeiro passo em direção ao estudo do
+desenvolvimento de software e de websites. Minha conta de hospedagem
+compartilhada, em um servidor que não devia me custar mais que 2 ou 3 reais
+por mês, foi meu primeiro ponto de acesso a uma linguagem de programação,
+o <a class="reference external" href="http://php.net/">PHP</a>. Fiquei fascinado com as possibilidades que aquela nova tecnologia
+poderia me proporcionar.</p>
+<p>A partir daí este domínio passou a hospedar os mais diversos tipos de
+websites, geralmente &quot;desenvolvidos&quot; por mim do zero, e com as mais diversas
+finalidades. Na verdade quase todo o código era baseado em scripts encontrados
+na internet, os quais eu geralmente não fazia ideia de como funcionavam, apenas
+copiava e colava. :(</p>
+<p>Eu gostaria de entrar em detalhes sobre os websites que eu criei na época, e
+até mesmo colocar alguns deles para funcionar denovo, através de alguns poucos
+backups que eu possuo da época, mas infelizmente é praticamente impossivel
+rodar scripts de mais de 6 anos atrás em sistemas atuais sem perder alguns dias
+atualizando código e corrigindo as inúmeras falhas de segurança, que hoje eu
+sei que existem, mas que não fazia a mínima idéia na época. Além disso alguns
+destes websites poderiam vir a incomodar algumas pessoas, por isso prefiro
+deixar tudo como está.</p>
+<p>Devido a toda a importância que esse domínio teve para mim, e toda a história
+dele, da qual eu só contei uma parte aqui, eu decidi por simplesmente parar de
+utilizá-lo, e já não o utilizo a alguns anos, de fato.</p>
+<p>Durante esses anos eu aprendi muita coisa, e adquiri bastante conhecimento
+técnico. Certamente não produzo mais código tão inseguro, ineficiente e mal
+organizado, mas certamente também não consigo mais produzir coisas tão simples
+e com tanto valor pessoal e sentimental. Quem conviveu comigo nesta época deve
+saber do que eu estou falando. :)</p>
+<p>Este domínio permanecerá registrado e servindo emails para mim e para algumas
+pessoas às quais eu ofereci algumas contas, e continuará servindo de dominio
+base para os hostnames dos meus servidores, mas não pretendo hospedar mais nada
+aqui, além desta explicação. De hoje em diante o domínio <em>rafaelmartins.com</em>
+representa apenas uma lembrança boa de um tempo que não volta mais.</p>
+<p>-- <a class="reference external" href="http://rafaelmartins.eng.br/">Rafael G. Martins</a></p>
+<blockquote>
+Escrito ao som de <strong>Vivendo do Ócio - Nostalgia</strong>.</blockquote>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="index.rst">View document source</a>.
+Generated on: 2013-12-31 03:08 UTC.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>
