@@ -6,6 +6,7 @@
 #
 
 RST2HTML = rst2html.py
+GITHUB_PAGES_PUBLISH = github-pages-publish
 
 .PHONY: all
 all: index.html
@@ -20,3 +21,9 @@ all: index.html
 clean:
 	$(RM) -v *.html
 
+.PHONY: publish
+publish: all
+	$(GITHUB_PAGES_PUBLISH) --verbose \
+		--cname rafaelmartins.com \
+		--message 'Updated webpage' \
+		. .
