@@ -20,7 +20,7 @@ build/%.html: %.rst static/html4css1.css static/style.css
 
 .PHONY: clean
 clean:
-	$(RM) -rv build
+	$(RM) -rv build/
 
 .PHONY: publish
 publish: all
